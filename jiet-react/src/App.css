@@ -1,0 +1,36 @@
+.App{
+  min-height: 100px;
+  background-color: rgb(194, 247, 194);
+}
+
+.heading{
+  text-align: center;
+  font-size:50px;
+  font-style: italic;
+}
+
+.search-form{
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background-color: green;
+  border: none;
+  padding: 10px 20px;
+  color:white;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
